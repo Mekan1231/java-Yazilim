@@ -4,7 +4,7 @@ import Entities.Category;
 import Entities.Course;
 import Entities.Instructor;
 
-public class HibernateProductDao implements CategoryDao,CourseDao,InstructorDao{
+public class HibernateCategoryDao implements CategoryDao{
     public void add(Category category) {
         System.out.println("Hibernate ile veri tabanına eklendi : " + category.getName());
     }
